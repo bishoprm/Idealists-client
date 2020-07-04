@@ -2,7 +2,7 @@
 
 ## Matching platform for investors and people with great ideas!
 
-![](<./idealists-app(1).gif>)
+![](<./demoDisplay.gif>)
 
 ### See the site deployed here: [https://www.imaengine.io/](https://www.imaengine.io/)
 
@@ -108,7 +108,7 @@ Despite challenges we had a lot of fun working on this project and we managed to
 
 ## Features
 
-(TO DO: _click the links for the corresponding pull requests_)
+(_click the links for the corresponding pull requests_)
 
 1. ### User login
 
@@ -128,24 +128,26 @@ Despite challenges we had a lot of fun working on this project and we managed to
 - Assess ideas
 - Calculate assessment weight according to industry
 - Investor comments on relevant ideas
+- [Refactoring and cleaning code](https://github.com/dashakrolik/Idealists-client/pull/134)
 
 3. ### Admin login
 
-- Admin dashboard
-- Add a new specialist
+- [Admin dashboard](https://github.com/dashakrolik/Idealists-client/pull/93)
+- [Add a new specialist](https://github.com/dashakrolik/Idealists-client/pull/121)
 - See rejected ideas
-- Undo rejection
+- Undo rejection (see "reject an idea" for logic that was used)
 - See idea details
-- Reject an idea
-- Move an idea to the next phase
+- [Reject an idea](https://github.com/dashakrolik/Idealists-client/pull/109)
+- [Move an idea to the next phase](https://github.com/dashakrolik/Idealists-client/pull/109)
+- [Refactoring and cleaning code](https://github.com/dashakrolik/Idealists-client/pull/130)
 
 4. ### Specialist login
 
 - Specialist dashboard
 - See ideas in specialist’s relevant phase
 - See idea details
-- Reject an idea
-- Move an idea to the next phase
+- Reject an idea (see reject idea in Admin login for logic)
+- [Move an idea to the next phase](https://github.com/dashakrolik/Idealists-client/pull/126)
 - See assessments
 - See and add comments
 - Upload files
