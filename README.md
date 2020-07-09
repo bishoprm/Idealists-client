@@ -60,45 +60,19 @@ Despite challenges we had a lot of fun working on this project and we managed to
 
 ## ⚛️ Technologies used: 💻
 
-### Client:
 
-- [React](https://github.com/facebook/react)
-
-- React hooks
-
-- [Emotion CSS](https://github.com/emotion-js/emotion) styled components
-
-- [Material UI](https://github.com/mui-org/material-ui)
-
-- [simple-react-validator](https://github.com/dockwa/simple-react-validator)
-
-- [cloudinary-react](https://github.com/cloudinary/cloudinary-react)
-
-- [react-pdf](https://github.com/diegomura/react-pdf)
-
----
-
-### Server:
-
-- [TypeScript](https://github.com/microsoft/TypeScript)
-
-- [TypeORM](https://github.com/typeorm/typeorm)
-
-- [PostgreSQL](https://github.com/postgres/postgres)
-
-- [node.js](https://github.com/nodejs)
-
-- [express server](https://github.com/expressjs/express)
-
-- [routing controllers](https://github.com/typestack/routing-controllers)
-
-- [nodemailer](https://github.com/nodemailer/nodemailer)
-
-- [jsonwebtoken](https://github.com/auth0/node-jsonwebtoken),
-
-- [bcrypt](https://github.com/kelektiv/node.bcrypt.js/)
-
-- [Docker](https://github.com/docker)
+Client | Server
+------------ | -------------
+React | TypeScript
+React Hooks | TypeORM
+Emotion CSS | PostgreSQL
+Material UI | NodeJS
+simple-react-validator | Express
+cloudinary | Routing Controllers
+React PDF | Nodemailer
+&nbsp; | JSON Web Token
+&nbsp; | bcrypt
+&nbsp; | Docker
 
 #### The server repo is private because it contains business logic. Because of this, the Product Owner would be happy to provide a reference upon request.
 ---
@@ -128,26 +102,27 @@ Despite challenges we had a lot of fun working on this project and we managed to
 - Assess ideas
 - Calculate assessment weight according to industry
 - Investor comments on relevant ideas
-- [Refactoring and cleaning code](https://github.com/dashakrolik/Idealists-client/pull/134)
+- [Refactoring and cleaning code - Pull Request](https://github.com/dashakrolik/Idealists-client/pull/134)
 
 3. ### Admin login
 
-- [Admin dashboard](https://github.com/dashakrolik/Idealists-client/pull/93)
-- [Add a new specialist](https://github.com/dashakrolik/Idealists-client/pull/121)
+- [Admin dashboard](https://github.com/bishoprm/Idealists-client/blob/master/src/components/Admin/AdminDashboard.js)| [PR](https://github.com/dashakrolik/Idealists-client/pull/93)
+- Add a new specialist
 - See rejected ideas
 - Undo rejection (see "reject an idea" for logic that was used)
 - See idea details
-- [Reject an idea](https://github.com/dashakrolik/Idealists-client/pull/109)
-- [Move an idea to the next phase](https://github.com/dashakrolik/Idealists-client/pull/109)
-- [Refactoring and cleaning code](https://github.com/dashakrolik/Idealists-client/pull/130)
+- [Reject an idea](https://github.com/bishoprm/Idealists-client/blob/57437665bc0746463e7b8dab5a06d1024db9d5c6/src/components/Admin/AdminDashboardDetail.js#L17-L36) | [Button to reject idea](https://github.com/bishoprm/Idealists-client/blob/57437665bc0746463e7b8dab5a06d1024db9d5c6/src/components/Admin/AdminDashboardDetail.js#L181-L185) | [PR](https://github.com/dashakrolik/Idealists-client/pull/109)
+- [Move an idea to the next phase](https://github.com/bishoprm/Idealists-client/blob/master/src/components/Admin/AdminDashboardDetail.js#L42-L64) | [Switch Statement](https://github.com/bishoprm/Idealists-client/blob/57437665bc0746463e7b8dab5a06d1024db9d5c6/src/components/Admin/AdminDashboardDetail.js#L94-L143) | [Button to move idea to next phase](https://github.com/bishoprm/Idealists-client/blob/57437665bc0746463e7b8dab5a06d1024db9d5c6/src/components/Admin/AdminDashboardDetail.js#L166-L180) | [PR](https://github.com/dashakrolik/Idealists-client/pull/109)
+- [Refactoring and cleaning code - Pull Request](https://github.com/dashakrolik/Idealists-client/pull/130)
 
 4. ### Specialist login
 
 - Specialist dashboard
 - See ideas in specialist’s relevant phase
 - See idea details
-- Reject an idea (see reject idea in Admin login for logic)
-- [Move an idea to the next phase](https://github.com/dashakrolik/Idealists-client/pull/126)
+- [Reject an idea](https://github.com/bishoprm/Idealists-client/blob/57437665bc0746463e7b8dab5a06d1024db9d5c6/src/components/SpecialistPortal/Dashboard/SpecialistIdeaDetails.js#L87-L95)
+- [Move an idea to the next phase](https://github.com/bishoprm/Idealists-client/blob/57437665bc0746463e7b8dab5a06d1024db9d5c6/src/components/SpecialistPortal/Dashboard/SpecialistIdeaDetails.js#L105-L127) | [Switch Statement](https://github.com/bishoprm/Idealists-client/blob/57437665bc0746463e7b8dab5a06d1024db9d5c6/src/components/SpecialistPortal/Dashboard/SpecialistIdeaDetails.js#L211-L260) | [Button to move idea to next phase](https://github.com/bishoprm/Idealists-client/blob/57437665bc0746463e7b8dab5a06d1024db9d5c6/src/components/SpecialistPortal/Dashboard/SpecialistIdeaDetails.js#L286-L306)
+- [Validate the specialist role and phase](https://github.com/bishoprm/Idealists-client/blob/57437665bc0746463e7b8dab5a06d1024db9d5c6/src/components/SpecialistPortal/Dashboard/SpecialistIdeaDetails.js#L52-L64)
 - See assessments
 - See and add comments
 - Upload files
