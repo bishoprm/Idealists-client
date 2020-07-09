@@ -10,7 +10,7 @@
 
 ## Overview
 
-[The Idealists](https://www.the-idealists.com/) is an organization that matches investors and people with ideas that fit within the UN’s Sustainable Development Goals. We worked on their dashboard app that allows all parties involved - investors, experts, specialists, users, and admin - to engage with and develop approved ideas into new companies. [PDF](./readme-assets/the-Idealists.pdf)
+[The Idealists](https://www.the-idealists.com/) is an organization that matches investors and people with ideas that fit within the UN’s Sustainable Development Goals. We worked on their dashboard app that allows all parties involved - investors, experts, specialists, users, and admin - to engage with and develop approved ideas into new companies. 
 
 ---
 
@@ -81,8 +81,7 @@ React PDF | Nodemailer
 ---
 
 ## Features
-
-(_click the links for the corresponding pull requests_)
+_(click the links to see examples of the code I contributed, and some of the pull requests I made)_
 
 1. ### User login
 
@@ -106,13 +105,13 @@ React PDF | Nodemailer
 
 3. ### Admin login
 
-- [Admin dashboard](https://github.com/bishoprm/Idealists-client/blob/master/src/components/Admin/AdminDashboard.js)| [PR](https://github.com/dashakrolik/Idealists-client/pull/93)
+- [Admin dashboard](https://github.com/bishoprm/Idealists-client/blob/master/src/components/Admin/AdminDashboard.js) | [Pull Request](https://github.com/dashakrolik/Idealists-client/pull/93)
 - Add a new specialist
 - See rejected ideas
 - Undo rejection (see "reject an idea" for logic that was used)
 - See idea details
-- [Reject an idea](https://github.com/bishoprm/Idealists-client/blob/57437665bc0746463e7b8dab5a06d1024db9d5c6/src/components/Admin/AdminDashboardDetail.js#L17-L36) | [Button to reject idea](https://github.com/bishoprm/Idealists-client/blob/57437665bc0746463e7b8dab5a06d1024db9d5c6/src/components/Admin/AdminDashboardDetail.js#L181-L185) | [PR](https://github.com/dashakrolik/Idealists-client/pull/109)
-- [Move an idea to the next phase](https://github.com/bishoprm/Idealists-client/blob/master/src/components/Admin/AdminDashboardDetail.js#L42-L64) | [Switch Statement](https://github.com/bishoprm/Idealists-client/blob/57437665bc0746463e7b8dab5a06d1024db9d5c6/src/components/Admin/AdminDashboardDetail.js#L94-L143) | [Button to move idea to next phase](https://github.com/bishoprm/Idealists-client/blob/57437665bc0746463e7b8dab5a06d1024db9d5c6/src/components/Admin/AdminDashboardDetail.js#L166-L180) | [PR](https://github.com/dashakrolik/Idealists-client/pull/109)
+- [Reject an idea](https://github.com/bishoprm/Idealists-client/blob/57437665bc0746463e7b8dab5a06d1024db9d5c6/src/components/Admin/AdminDashboardDetail.js#L17-L36) | [Button to reject idea](https://github.com/bishoprm/Idealists-client/blob/57437665bc0746463e7b8dab5a06d1024db9d5c6/src/components/Admin/AdminDashboardDetail.js#L181-L185) | [Pull Request](https://github.com/dashakrolik/Idealists-client/pull/109)
+- [Move an idea to the next phase](https://github.com/bishoprm/Idealists-client/blob/master/src/components/Admin/AdminDashboardDetail.js#L42-L64) | [Switch Statement](https://github.com/bishoprm/Idealists-client/blob/57437665bc0746463e7b8dab5a06d1024db9d5c6/src/components/Admin/AdminDashboardDetail.js#L94-L143) | [Button to move idea to next phase](https://github.com/bishoprm/Idealists-client/blob/57437665bc0746463e7b8dab5a06d1024db9d5c6/src/components/Admin/AdminDashboardDetail.js#L166-L180) | [Pull Request](https://github.com/dashakrolik/Idealists-client/pull/109)
 - [Refactoring and cleaning code - Pull Request](https://github.com/dashakrolik/Idealists-client/pull/130)
 
 4. ### Specialist login
